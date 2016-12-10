@@ -12,3 +12,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 - The diagrams show where changes were made and on which branch. It will help later if branches need to be merged. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Git merge can save a lot of time by combining the changes in two versions. The merge isn't perfect and can't check how it effects the program because all it does is combine lines of code that differ. It doesn't necessarily know what they do. It does look for potential conflicts. Therefore, it saves time but still requires knowledge of the code to make sure the process goes smoothly.
+
