@@ -11,4 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?
 - You can still merge after your next commit even if offline. This will keep the local and remote from getting too far out of sync.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+- Without GitHub, I would share sections of code and communicate the changes made. The code sections would be merged by cut and paste into a new file and debugged. The process is very similar to GitHub, but done manually. GitHub would simplify finding the origin of the bug if there is a good log of commits. I currently find keeping track of branches and the head confusing, but I suspect I will gain confidence if I work with it more. I think of it more as benefits and burdens. If two programmers are sharing a work load equally, then I see GitHub extrememly useful. In the past my contributions have been minor and easy for the main programmer to incorporate and in their own style. This situation might be easier without GitHub, where the main programmer is very likely to rewrite the code another contributes anyway. 
+
 
