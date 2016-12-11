@@ -1,19 +1,55 @@
-When would you want to use a remote repository rather than keeping all your work
+When would you want to use a remote repository rather than keeping all
+ your work
 local?
-- When collaborating, as a backup, when sharing, if working on multiple computers, any combination of these. 
+- When collaborating, as a backup, when sharing, if working on multiple
+ computers, any combination of these. 
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-- This would be for the same reasons listed for committing manually or automatically. In addition, you want control of when you incorporate changes others make if you are collaborating. If the project is large and many commits and pushes are being made by others, it could be distracting to continuously receive new commits. 
+Why might you want to always pull changes manually rather than having
+ Git automatically stay up-to-date with your remote repository?
+- This would be for the same reasons listed for committing manually or
+ automatically. In addition, you want control of when you incorporate
+ changes others make if you are collaborating. If the project is large
+ and many commits and pushes are being made by others, it could be
+ distracting to continuously receive new commits. 
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
-- Fork is a clone of the someone else's repository in your GitHub account. You can make changes to their repository for your own use that will not change their original repository. Clones are independent copies of repositories. Branches are strings of commits within a repository. They compartmentalize work in the same repository. 
+Describe the differences between forks, clones, and branches. When
+ would you use one instead of another?
+- Fork is a clone of the someone else's repository in your GitHub
+ account. You can make changes to their repository for your own use
+ that will not change their original repository. Clones are independent
+ copies of repositories. Branches are strings of commits within a
+ repository. They compartmentalize work in the same repository. 
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
-- You can still merge after your next commit even if offline. This will keep the local and remote from getting too far out of sync.
+What is the benefit of having a copy of the last known state of the 
+ remote stored locally?
+- You can still merge after your next commit even if offline. This will 
+ keep the local and remote from getting too far out of sync.
 
-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-- Without GitHub, I would share sections of code and communicate the changes made. The code sections would be merged by cut and paste into a new file and debugged. The process is very similar to GitHub, but done manually. GitHub would simplify finding the origin of the bug if there is a good log of commits. I currently find keeping track of branches and the head confusing, but I suspect I will gain confidence if I work with it more. I think of it more as benefits and burdens. If two programmers are sharing a work load equally, then I see GitHub extrememly useful. In the past my contributions have been minor and easy for the main programmer to incorporate and in their own style. This situation might be easier without GitHub, where the main programmer is very likely to rewrite the code another contributes anyway. 
+How would you collaborate without using Git or GitHub? What would be 
+ easier, and what would be harder?
+- Without GitHub, I would share sections of code and communicate the 
+ changes made. The code sections would be merged by cut and paste into
+ a new file and debugged. The process is very similar to GitHub, but
+ done manually. GitHub would simplify finding the origin of the bug if
+ there is a good log of commits. I currently find keeping track of
+ branches and the head confusing, but I suspect I will gain confidence
+ if I work with it more. I think of it more as benefits and burdens. If
+ two programmers are sharing a work load equally, then I see GitHub
+ extrememly useful. In the past my contributions have been minor and
+ easy for the main programmer to incorporate and in their own style.
+ This situation might be easier without GitHub, where the main 
+ programmer is very likely to rewrite the code another contributes 
+ anyway. 
 
-When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
-- Once the code is doing what it was intended to do, I would start working on branches. This preserves the master in a working form and branches can be merged once they are tested. If there is nothing to break, then I don't see any need to complicate the process. Another time to work on branches might be when collaborating. Contribute on a branch and then use pull requests to update the master. Working only the master is simpler. Using branches adds confidence that you won't break the program and also allows you to work without worrying about taking the master in a direction not intended by collaborators. 
+When would you want to make changes in a separate branch rather than 
+directly in master? What benefits does each approach have?
+- Once the code is doing what it was intended to do, I would start 
+ working on branches. This preserves the master in a working form and 
+ branches can be merged once they are tested. If there is nothing to 
+ break, then I don't see any need to complicate the process. Another 
+ time to work on branches might be when collaborating. Contribute on a 
+ branch and then use pull requests to update the master. Working only 
+ the master is simpler. Using branches adds confidence that you won't 
+ break the program and also allows you to work without worrying about 
+ taking the master in a direction not intended by collaborators. 
 
